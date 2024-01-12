@@ -15,8 +15,8 @@ def detect_encoding(file_path):
     # Return the detected encoding and confidence level
     return encoding, confidence
 
-# Replace 'seu_arquivo.txt' with the path of the file you want to check
-file_path = 'C:\\Users\\ernes\\Downloads\\id,rubrica,mes,valor,ano.txt'
+# Replace 'your_file.txt' with the path of the file you want to check
+file_path = 'C:\\Users\\ernes\\Downloads\\your_file.txt'
 
 # Call the detect_encoding function to get the encoding and confidence of the file
 encoding, confidence = detect_encoding(file_path)
