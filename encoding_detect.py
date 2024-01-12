@@ -1,5 +1,7 @@
+# Import package
 import chardet
 
+# Define function
 def detect_encoding(file_path):
     # Open the file in binary mode ('rb') to read its content
     with open(file_path, 'rb') as file:
